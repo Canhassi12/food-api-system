@@ -1,12 +1,12 @@
 <?php
 
-namespace Database\Factories;
+namespace Truckpag\Application\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Truckpag\Infrastructure\Models\User>
  */
 class UserFactory extends Factory
 {
