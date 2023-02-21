@@ -51,7 +51,11 @@ Neste projeto foi usado como principal tecnologia [PHP/LARAVEL](https://laravel.
     5 - Crie um banco de dados para o projeto
     6 - Configure seu arquivo .env
 
-## Testes
+### Docker
+    1 - git clone https://github.com/Canhassi12/food-api-system.git
+    2 - docker compose up
+    3 - configure seu banco de dados e a suas .env
+### Testes
     - O projeto contém testes unitarios e testes de features, usando também ***`MOCK`*** de dados.
     - #### Como rodar os testes
       ``` bash 
