@@ -1,0 +1,22 @@
+services:
+  web:
+    build:
+    ports:
+      - "8000:5000"
+    depends_on:
+      - mysql
+    networks:
+      - test
+  mysql:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+    ports:
+      - "3306:3306"
+    networks:
+      - test
+
+networks:
+  test:
